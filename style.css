@@ -1,0 +1,73 @@
+
+
+
+#resumedisplay {
+    border: solid;
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+}
+body {
+    margin: 20px;
+    padding: 0px;
+  background-image: url(dynamic2.png);
+
+}
+#form {
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+
+
+}
+fieldset {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid;
+    border-width: 2px;
+    
+ 
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+textarea,input {
+    width:  97% ;
+    padding :8px;
+    margin-top: 4px;
+}
+
+button {
+    border: solid;
+    height: 40px;
+    transition-duration: 0.5s;
+    border-radius: 30px;
+    margin-left: 240px;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: black;
+    color: antiquewhite;
+    
+}
+button:active{
+    opacity: 20%;
+}
+legend{
+    font-weight: bold;
+}
+.h1{
+    /* margin-left: 490px;
+    margin-bottom: 5px; */
+    text-align: center;
+    color: aliceblue;
+}
+
+
+/* @media only screen and (min-width : 1200) {
+    .h1{
+     
+     
+    }
+} */

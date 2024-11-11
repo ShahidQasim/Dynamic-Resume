@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        dynamic resume  
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="h1">DYNAMIC RESUME</h1>
+<form id="form">
+    <fieldset>
+        <legend>PERSONAL DATA</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="name" required />      
+          <label for="email">Email :</label>
+          <input type="email" id="email" placeholder="entre mail" required />
+          <label for="number">Contact phone:</label>
+          <input type="phone" id="phone" placeholder="03xxxxxxxx"  required />
+
+    </fieldset>
+    <fieldset>
+        <legend>EDUCATION</legend>
+        <label for="education">Education:</label>
+        <textarea  id="education" placeholder="enter most recent first" rows="5" required></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>EXPERIENCE</legend>
+        <label for="experience">Experience:</label>
+        <textarea name="exp" id="experience" placeholder="entermost recent first" rows="7" required></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>SKILLS</legend>
+        <input type="text" id="skill1" class="info" required placeholder="Skill 1" /><br>
+        <input type="text" id="skill2" class="info" required placeholder="Skill 2" /><br>
+        <input type="text" id="skill3" class="info" required placeholder="Skill 3"/><br>
+    </fieldset>
+    <fieldset>
+        <legend>REFERENCES</legend>
+        <label for="ref">who knows you</label>
+        <input type="text" id="ref" placeholder="reference-1"/>
+        <input type="text" id="ref2" placeholder="reference-2"/>
+    </fieldset>
+    
+    <button type="submit">Generate resume</button>
+</form>
+
+
+<div id="resumedisplay">
+    Please fill out the above form, your resume will be displayed here..... <br>
+    Thank you for using our services.... <br>
+    Regards: SHAHID QASIM
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
+
+
+    <!-- <h2><b>MY RESUME</b></h2>
+<h3>PERSONAL INFORMATION </h3>
+<p  id="dname"></p>
+<p  id="dmail"></p>
+<p  id="dphone"></p>
+
+<h3>EDUCATION</h3>
+<p  id="dedu"></p>
+
+<h3>Experience</h3>
+<p id="dexp"></p>
+
+<h3>SKILLS</h3>
+<p  id="sk1"></p>
+<p  id="sk2"></p>
+<p  id="sk3"></p>
+
+<h3>references</h3>
+<p  id="ref1"></p>
+<p  id="ref2"></p> -->
+
